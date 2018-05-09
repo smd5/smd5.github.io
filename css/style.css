@@ -172,8 +172,12 @@ body {
 .ivory_tile {
     position: absolute;
     z-index: -12;
-    top: 700px;
-    left: -10px;
+    top: 712px;
+    left: 0px;
+    height: 300px;
+    width: 100vw;
+    background-image: url(../img/tile.png);
+    background-repeat: repeat-x;
 
 
 
