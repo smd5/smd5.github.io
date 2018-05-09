@@ -1,0 +1,627 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+/* Better box model */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*----------------------------------------------------------------------*
+
+	General Styles
+
+*----------------------------------------------------------------------*/
+
+body {
+    background-color: #FEB6B6;
+
+}
+
+body {
+    width: 100wh;
+    height: 90vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #FEB6B6, #FEB699, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 9s ease infinite;
+    -moz-animation: Gradient 9s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+
+
+
+.background {
+    position: absolute;
+    align-content: center;
+    margin-left: 150px;
+    z-index: -2;
+    background-repeat: repeat-y;
+}
+
+.ivory_tile {
+    position: absolute;
+    z-index: -12;
+    top: 700px;
+    left: -10px;
+
+
+
+}
+
+.window {
+    position: absolute;
+    align-content: center;
+    margin-left: 111px;
+    z-index: -1;
+
+}
+
+.cloud {
+    position: absolute;
+
+}
+
+.cloud2 {
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+
+.cloud3 {
+    position: absolute;
+    right: 220px;
+    top: 300px;
+
+}
+
+
+.firefighter_1 {
+
+    position: absolute;
+    margin-top: 650px;
+    z-index: 2;
+    margin-left: 450px;
+    transition: all .6s ease-in-out;
+}
+
+.firefighter_1:hover {
+    margin-top: 620px;
+}
+
+.firefighter_2 {
+
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 470px;
+    transition: all .8s ease-in-out;
+}
+
+.firefighter_2:hover {
+    margin-top: 410px;
+}
+
+.lettering {
+    position: absolute;
+    align-content: center;
+    margin-top: 90px;
+    margin-left: 250px;
+
+}
+
+.lettering_glow {
+    position: absolute;
+    z-index: 12;
+    margin-top: 22px;
+    margin-left: 181px;
+    animation: fadeIn 2s infinite alternate;
+}
+
+.bird {
+    position: absolute;
+    margin-left: 50px;
+    top: 90px;
+    z-index: -11;
+}
+
+
+.top_smoke {
+    position: absolute;
+    margin-left: 405px;
+    margin-top: 29px;
+
+}
+
+.smoke_ring {
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 540px;
+}
+
+.smoke_ring2 {
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 520px;
+}
+
+.smoke_ring3 {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 500px;
+}
+
+.smoke_ring4 {
+    position: absolute;
+    margin-left: 315px;
+    margin-top: 480px;
+}
+
+.smoke_ring5 {
+    position: absolute;
+    margin-left: 315px;
+    margin-top: 450px;
+}
+
+.chimney_1 {
+    position: absolute;
+    margin-left: 489px;
+    margin-top: 90px;
+
+
+}
+
+.chimney_2 {
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 50px;
+}
+
+.chimney_3 {
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 45px;
+
+}
+
+.top_window {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 259px;
+
+
+}
+
+.top_window2 {
+    position: absolute;
+    margin-left: 265px;
+    margin-top: 230px;
+}
+
+.side_smoke {
+    position: absolute;
+    margin-left: 432px;
+    margin-top: 220px;
+}
+
+.side_smoke2 {
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 185px;
+}
+
+.side_smoke3 {
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 190px;
+}
+
+
+.lower_1 {
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 655px
+}
+
+.lower_2 {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 645px;
+}
+
+.lower_3 {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 600px;
+}
+
+
+.smokey {
+    position: absolute;
+    margin-left: 423px;
+    margin-top: 345px;
+
+
+}
+
+.smokey_2 {
+    position: absolute;
+    margin-left: 455px;
+    margin-top: 329px;
+
+
+}
+
+.smokee {
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 350px;
+}
+
+.smokee_2 {
+    position: absolute;
+    margin-left: 235px;
+    margin-top: 380px;
+}
+
+
+.smoke_1 {
+    position: absolute;
+    margin-left: 245px;
+    margin-top: 590px;
+
+}
+
+.smoke_2 {
+    position: absolute;
+    margin-left: 245px;
+    margin-top: 565px;
+}
+
+.smoke_3 {
+    position: absolute;
+    margin-left: 245px;
+    margin-top: 525px;
+}
+
+.smoke_4 {
+    position: absolute;
+    margin-left: 235px;
+    margin-top: 445px;
+}
+
+.lettering:hover {
+    animation: shake 3s infinite linear;
+}
+
+
+
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+}
+
+
+
+/*----------------------------------------------------------------------*
+
+	Responsive Styles
+
+
+
+
+*----------------------------------------------------------------------*/
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.top_smoke {
+    animation: disappear 2s infinite linear;
+    animation: disappear 5s infinite linear;
+}
+
+
+@-webkit-keyframes disappear {
+    25% {
+        opacity: 0.0;
+    }
+    50% {
+        opacity: .25;
+    }
+    75% {
+        opacity: 1;
+    }
+}
+
+
+.smoke_ring {
+    animation: disappear 3s infinite linear;
+    animation: disappear 3s infinite linear;
+
+}
+
+
+.smoke_ring2 {
+    animation: disappear 4s infinite linear;
+    animation: disappear 4s infinite linear;
+}
+
+.smoke_ring3 {
+    animation: disappear 5s infinite linear;
+    animation: disappear 4s infinite linear;
+}
+
+.smoke_ring4 {
+    animation: disappear 0s infinite linear;
+    animation: disappear 5s infinite linear;
+
+}
+
+.smoke_ring5 {
+    animation: disappear 6s infinite linear;
+    animation: disappear 6s infinite linear;
+}
+
+.smokee {
+    animation: disappear 1s infinite linear;
+    animation: disappear 2s infinite linear;
+
+}
+
+.smokee_2 {
+
+    animation: disappear 2s infinite linear;
+    animation: disappear 4s infinite linear;
+
+}
+
+.lower_1 {
+    animation: disappear 2s infinite linear;
+    animation: disappear 4s infinite linear;
+
+}
+
+.lower_2 {
+    animation: disappear 2s infinite linear;
+    animation: disappear 4s infinite linear;
+}
+
+.lower_3 {
+    animation: disappear 2s infinite linear;
+    animation: disappear 4s infinite linear;
+}
+
+.top_window {
+    animation: disappear 2s infinite linear;
+    animation: disappear 4s infinite linear;
+
+}
+
+.top_window2 {
+    animation: disappear 2s infinite linear;
+    animation: disappear 4s infinite linear;
+
+}
+
+.chimney_1 {
+    animation: disappear 3s infinite linear;
+    animation: disappear 3s infinite linear;
+
+}
+
+.chimney_2 {
+    animation: disappear 4s infinite linear;
+    animation: disappear 4s infinite linear;
+}
+
+.chimney_3 {
+    animation: disappear 2s infinite linear;
+    animation: disappear 4s infinite linear;
+}
+
+.smoke_1 {
+    animation: disappear 2s infinite linear;
+    animation: disappear 4s infinite linear;
+
+}
+
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
+
+/* Apply these styles to all browser windows less than 800px */
+
+@media screen and (max-width: 800px) {
+
+    .container {
+        width: 90%;
+    }
+
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------*
+
+	Miscellaneous
+
+*----------------------------------------------------------------------*/
+
+/* Forces a box filled with floated elements to wrap around child elements */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
