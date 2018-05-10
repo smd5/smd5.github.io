@@ -339,14 +339,14 @@ body {
 
 .side_smoke2 {
     position: absolute;
-    margin-left: 490px;
-    margin-top: 185px;
+    margin-left: 445px;
+    margin-top: 295px;
 }
 
 .side_smoke3 {
     position: absolute;
     margin-left: 450px;
-    margin-top: 300px;
+    margin-top: 305px;
 }
 
 
@@ -522,6 +522,10 @@ body {
     animation: disappear 4s infinite linear;
 }
 
+.side_smoke2 {
+    animation: disappear 2s infinite linear;
+    animation: disappear 4s infinite linear;
+}
 
 .smoke_ring {
     animation: disappear 3s infinite linear;
