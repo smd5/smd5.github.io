@@ -657,12 +657,19 @@ body {
 
 /* Apply these styles to all browser windows less than 800px */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 
     .container {
         width: 90%;
     }
 
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
 }
 
 
