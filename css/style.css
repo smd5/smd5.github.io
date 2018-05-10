@@ -156,6 +156,7 @@ body {
     -webkit-animation: Gradient 9s ease infinite;
     -moz-animation: Gradient 9s ease infinite;
     animation: Gradient 15s ease infinite;
+    display: flex;
 }
 
 
@@ -178,6 +179,7 @@ body {
     width: 100vw;
     background-image: url(../img/tile.png);
     background-repeat: repeat-x;
+    display: flex;
 
 
 
@@ -200,6 +202,7 @@ body {
     position: absolute;
     top: 220px;
     left: 20px;
+
 }
 
 .cloud3 {
@@ -660,7 +663,7 @@ body {
 @media screen and (max-width: 700px) {
 
     .container {
-        width: 90%;
+        width: 100%;
     }
 
 }
