@@ -9,6 +9,7 @@ $(function () {
 
         }, 100, "swing", function () {});
 
+
         $('.bird').animate({
 
             opacity: 2,

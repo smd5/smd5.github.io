@@ -272,31 +272,31 @@ body {
 .smoke_ring {
     position: absolute;
     margin-left: 340px;
-    margin-top: 540px;
+    margin-top: 550px;
 }
 
 .smoke_ring2 {
     position: absolute;
-    margin-left: 330px;
-    margin-top: 520px;
+    margin-left: 340px;
+    margin-top: 560px;
 }
 
 .smoke_ring3 {
     position: absolute;
-    margin-left: 320px;
-    margin-top: 500px;
+    margin-left: 340px;
+    margin-top: 560px;
 }
 
 .smoke_ring4 {
     position: absolute;
-    margin-left: 315px;
-    margin-top: 480px;
+    margin-left: 340px;
+    margin-top: 560px;
 }
 
 .smoke_ring5 {
     position: absolute;
-    margin-left: 315px;
-    margin-top: 450px;
+    margin-left: 345px;
+    margin-top: 550px;
 }
 
 .chimney_1 {
@@ -309,14 +309,14 @@ body {
 
 .chimney_2 {
     position: absolute;
-    margin-left: 500px;
-    margin-top: 70px;
+    margin-left: 490px;
+    margin-top: 90px;
 }
 
 .chimney_3 {
     position: absolute;
-    margin-left: 505px;
-    margin-top: 75px;
+    margin-left: 495px;
+    margin-top: 95px;
 
 }
 
@@ -390,8 +390,8 @@ body {
 
 .smokee {
     position: absolute;
-    margin-left: 240px;
-    margin-top: 410px;
+    margin-left: 245px;
+    margin-top: 422px;
 }
 
 .smokee_2 {
@@ -411,19 +411,19 @@ body {
 .smoke_2 {
     position: absolute;
     margin-left: 245px;
-    margin-top: 605px;
+    margin-top: 608px;
 }
 
 .smoke_3 {
     position: absolute;
-    margin-left: 245px;
-    margin-top: 585px;
+    margin-left: 240px;
+    margin-top: 595px;
 }
 
 .smoke_4 {
     position: absolute;
-    margin-left: 245px;
-    margin-top: 575px;
+    margin-left: 240px;
+    margin-top: 588px;
 }
 
 .lettering:hover {
