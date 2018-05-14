@@ -666,6 +666,13 @@ body {
         width: 100%;
     }
 
+    body {
+        background: linear-gradient(-45deg, #FEB6B6, #FEB699, #23A6D5);
+        -webkit-animation: none;
+        -moz-animation: none;
+        animation: none;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
