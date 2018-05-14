@@ -674,6 +674,10 @@ body {
         background-attachment: fixed;
     }
 
+    .ivory_tile {
+        width: 130vw;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
