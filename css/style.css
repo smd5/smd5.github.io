@@ -671,6 +671,7 @@ body {
         -webkit-animation: none;
         -moz-animation: none;
         animation: none;
+        background-attachment: fixed;
     }
 
 }
