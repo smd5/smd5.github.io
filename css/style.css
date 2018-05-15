@@ -206,8 +206,8 @@ body {
 }
 
 .cloud3 {
-    position: relative;
-    left: 650px;
+    position: absolute;
+    right: 220px;
     top: 300px;
 
 }
